@@ -5,8 +5,8 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
-// add your Session Id 
+SESSION_ID: process.env.SESSION_ID || "MALVIN-XD~BoIBCCxK#rmLup2mtiamszZjPy0EKCAMq8No-Fj7mVkAy_w0iyW0",
+// add your Session
 
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot
@@ -98,7 +98,7 @@ AUTO_TYPING: process.env.AUTO_TYPING || "true",
 AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
 // make it true for auto recoding 
 
-FAKE_RECORDING: process.env.FAKE_RECORDING || "false",
+FAKE_RECORDING: process.env.FAKE_RECORDING || "true",
 // make it true for fake recoding 
 
 FAKE_TYPING: process.env.FAKE_TYPING || "false",
